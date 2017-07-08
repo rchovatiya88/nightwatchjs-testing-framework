@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="12"
+            failures="0"
+            tests="7">
+
+  <testsuite name="dataEntry"
+    errors="12" failures="0" hostname="" id="" package="Opencart" skipped="0"
+    tests="7" time="19.46" timestamp="Tue, 16 May 2017 01:38:21 GMT">
+  
+    <testcase name="Go to opencartAdmin" time="5.720" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Login" time="3.153" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Go to Product Page " time="4.176" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Click on New Product" time="3.471" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Adding Product Information" time="2.347" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Save the product" time="0.5080" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Browser quit" time="0.08200" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#input-username&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:11:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-password&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:12:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div &gt; div &gt; div &gt; div &gt; div.panel-body &gt; form &gt; div.text-right &gt; button&quot; using: css selector
+    at Object.Login (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:13:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:18:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#catalog &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Go to Product Page  (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:19:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; a&quot; using: css selector
+    at Object.Click on New Product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-name1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:29:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#language1 &gt; div:nth-child(2) &gt; div &gt; div &gt; div.note-editing-area &gt; div.note-editable.panel-body&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:30:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-meta-title1&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:31:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#form-product &gt; ul &gt; li:nth-child(2) &gt; a&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:32:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#input-model&quot; using: css selector
+    at Object.Adding Product Information (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:33:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#content &gt; div.page-header &gt; div &gt; div &gt; button &gt; i&quot; using: css selector
+    at Object.Save the product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/Opencart/dataEntry.js:37:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

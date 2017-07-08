@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="4">
+
+  <testsuite name="ornaitjewels"
+    errors="2" failures="0" hostname="" id="" package="ornaitjewels" skipped="0"
+    tests="4" time="23.02" timestamp="Tue, 16 May 2017 03:57:54 GMT">
+  
+    <testcase name="Go to ornaitjewels" time="5.279" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#toggle-menu &gt; #Layer_1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;a[href=&quot;#modal-product-class&quot;] &gt; svg.injected-svg &gt; path:nth-of-type(1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:26:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Login to the site" time="6.381" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#toggle-menu &gt; #Layer_1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;a[href=&quot;#modal-product-class&quot;] &gt; svg.injected-svg &gt; path:nth-of-type(1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:26:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Add a product" time="11.27" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#toggle-menu &gt; #Layer_1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;a[href=&quot;#modal-product-class&quot;] &gt; svg.injected-svg &gt; path:nth-of-type(1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:26:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="Browser quit" time="0.08500" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#toggle-menu &gt; #Layer_1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:24:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;a[href=&quot;#modal-product-class&quot;] &gt; svg.injected-svg &gt; path:nth-of-type(1&quot; using: css selector
+    at Object.Add a product (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/tests/ornaitjewels.js:26:8)
+    at Module.call (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/OrnaitAutomation/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

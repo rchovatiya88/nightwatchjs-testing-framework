@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="clicktest"
+    errors="1" failures="0" hostname="" id="" package="scratchpad" skipped="1"
+    tests="2" time="14.64" timestamp="Fri, 16 Dec 2016 19:00:34 GMT">
+  
+    <testcase name="go to click click " time="14.64" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        Error while running windowSize command: First argument must be a window handle string.
+    at Object.go to click click  (/Users/ronakchovatiya/Ronak/Orna/tests/scratchpad/clicktest.js:17:13)
+    at Module.call (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/lib/runner/module.js:62:34)
+    at /Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/ronakchovatiya/Ronak/Orna/lib/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Browser quit">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

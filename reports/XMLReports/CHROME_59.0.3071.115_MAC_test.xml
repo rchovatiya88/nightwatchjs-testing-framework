@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="test"
+    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="5" time="17.89" timestamp="Sat, 08 Jul 2017 16:29:22 GMT">
+  
+    <testcase name="Go to the login page" time="9.898" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="login as admin" time="3.044" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to the product" time="1.111" assertions="0">
+    </testcase>
+  
+    <testcase name="Add image" time="0.6590" assertions="0">
+    </testcase>
+  
+    <testcase name="image Upload" time="3.182" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
