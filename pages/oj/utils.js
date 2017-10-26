@@ -13,8 +13,8 @@ module.exports = function (browser) {
   };
   this.adminLogin = function () {
     browser
-   .setValue('#id_username', 'admin@admin.com')
-   .setValue('#id_password', 'admin')
+   .setValue('#id_username', '')
+   .setValue('#id_password', '')
    .click('body > div.container.maincontent > div > div > div.col-md-6.login__form > form > div > div > button');
   };
   this.DashboardButton = function () {
